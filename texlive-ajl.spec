@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-ajl
-Version:	20140512
-Release:	4
+Version:	20170414
+Release:	1
 Summary:	BibTeX style for AJL
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/ajl.bst
