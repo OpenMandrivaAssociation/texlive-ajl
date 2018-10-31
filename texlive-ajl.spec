@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ajl
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	BibTeX style for AJL
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/ajl.bst
