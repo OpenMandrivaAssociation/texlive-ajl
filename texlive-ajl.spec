@@ -1,17 +1,11 @@
-# revision 34016
-# category Package
-# catalog-ctan /biblio/bibtex/contrib/misc/ajl.bst
-# catalog-date 2014-05-12 06:36:44 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-ajl
-Version:	20190228
+Version:	34016
 Release:	1
 Summary:	BibTeX style for AJL
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/ajl.bst
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ajl.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ajl.r34016.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -22,12 +16,12 @@ Bibliographic style references in style of Australian Journal
 of Linguistics.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -35,7 +29,7 @@ of Linguistics.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
