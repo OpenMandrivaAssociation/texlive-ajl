@@ -1,6 +1,6 @@
 Name:		texlive-ajl
 Version:	34016
-Release:	1
+Release:	2
 Summary:	BibTeX style for AJL
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/misc/ajl.bst
